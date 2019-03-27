@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>SK Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+    
+</head>
+<body>
+
+   
+    <nav class="navbar container">
+                <a class href="#about">
+                </li><img class = "logo" src="sklogo.png" width="50" height="50" class="d-inline-block align-top" alt="">
+                </a>
+                <a class = "option"  href="#projects">PROJECTS</a>
+                <a class = "option"  href="#background">ABOUT ME</a>
+                <a class = "option" href="#contact">CONTACT ME</a>
+   
+    </nav>
+    <div class = "intro container" id = "about">
+        <h1>HELLO</h1>
+        <h2> I am <span> Siddharth Kakkar </span> <br> I'm a web applications developer / designer  </h2>
+        
+  <br><br>
+        <a class = "more" href="#background">WANT TO KNOW MORE ABOUT ME -></a>
+
+    </div>
+    <div class = "background container" id = "background"> 
+            <h3 class = "heading" >ABOUT ME</h3>
+            <br><br>
+            I am self-taught in HTML5, CSS, JavaScript, ReactJS (intermediate), NodeJS, NPM packages and currently on my learning curve at back-end development languages including postgresSQL, and python. 
+            I am a former graduate of Bachelors in Electrical Engineering majored in Control and Power Systems wherein I have learnt a lot of basic programming languages such as C, C++, Assembly and programming in simulation softwares such as Matlab, PLC, and PowerWorld Simulator.              
+            <br><br>
+            <h4>Below are some simulation results from my thesis research project: </h4>
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="1.png" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="2.png" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="3.png" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+        </div>
+    
+    <div id = "projects">
+        <h3 class = "heading" >PROJECTS</h3>
+        <div class="card text-white bg-dark mb-3" >
+                <div class="card-header"></div>
+                <img class="card-img-top" src="appshot-1.png" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">RUBY TERMINAL APP</h5>
+                  <p class="card-text">This was a group project done as an assignment with RUBY as the programming language.</p>
+                  <a href="https://github.com/sidd2202/ruby-terminal-app" class="btn btn-primary">GROWTH MINDSET</a>
+                </div>
+                </div>
+                <div class="card text-white bg-dark mb-3" >
+                    <div class="card-header"></div>
+                    <img class="card-img-top" src="enquiry.png" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">ENQUIRY PAGE</h5>
+                      <p class="card-text">Created an enquiry page while at internship for COREBIT</p><br>
+                      <a href="enquiry.html" class="btn btn-primary">ENQUIRY PAGE</a>
+                    </div>
+                </div>
+                <div class="card text-white bg-dark mb-3" >
+                        <div class="card-header"></div>
+                        <img class="card-img-top" src="companylogo.png" alt="Card image cap">
+                        <div class="card-body">
+                          <h5 class="card-title">EXAMPLE LANDING PAGE</h5>
+                          <p class="card-text">Created an example landing page for starters while interning at COREBIT</p><br>
+                          <a href="NDIS1.html" class="btn btn-primary">COREBIT</a>
+                        </div>
+                </div>
+
+
+
+
+    </div>
+    <div id = "contact">
+        <h3 class = "heading" >CONTACT ME</h3>
+       
+        <form >
+                <div class="container">
+                      
+                    <form class="form-inline">
+                      <div class="form-group has-success has-feedback">
+                        <label class="control-label" for="inputSuccess4">Name: </label>
+                        <input type="text" class="form-control" id="inputSuccess4" aria-describedby="inputSuccess4Status" placeholder = "Organisation's name" name = "Org's Name" required >
+                       <span id="inputSuccess4Status" class="sr-only">(success)</span>
+                      </div>
+                
+                    <hr>
+                
+                      <div class="form-group has-success has-feedback ">
+                        <label class="control-label" for="inputSuccess1">Email Address: </label>
+                        <input type="email" class="form-control" id="inputSuccess4" aria-describedby="inputSuccess4Status" placeholder = "mail@example.com" name = "Mail">
+                        <span id="inputSuccess4Status" class="sr-only">(success)</span>
+                      </div>
+                
+                    <hr>
+                
+                      <div class="form-group has-success has-feedback">
+                        <label class="control-label" for="inputSuccess4">Contact Number: </label>
+                        <input type="text" class="form-control" id="inputSuccess4" aria-describedby="inputSuccess4Status" placeholder = "+61 4xx xxx xxx" name = "Phone">
+                        <span id="inputSuccess4Status" class="sr-only">(success)</span>
+                      </div>
+                
+                    <hr>
+                    <div class="form-group">
+                      <label for="comment">Enquiry: </label>
+                      <textarea class="form-control" rows="5" id="comment" placeholder = "your enquiry " name = "Comments"></textarea>
+                    </div>
+                
+                  <div >
+                      <form>
+                      <a href="#" class="btn btn-default btn-lg active" id = "submit"role="button">Submit</a>
+                      </form>
+                  </div>
+                  </form>
+                   <div>
+                       <a href=""></a>
+                       <a href=""></a>
+                       <!-- <p>Links to LinkedIN and GitHub</p> -->
+                   </div>
+                   
+                </div>
+                </form>
+        <!-- contact info github and linkedin -->
+        
+    </div>
+
+    <div class = "copyright">
+        <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="siddharth-kakkar-939820124"><a class="LI-simple-link" href='https://au.linkedin.com/in/siddharth-kakkar-939820124?trk=profile-badge'>Siddharth Kakkar</a></div>
+        <br>
+        <div class = "git">
+            <a href="https://github.com/sidd2202">
+            <img src="GitHub-Mark.png" alt="">
+            </a>
+        </div>
+        <br>
+        <p>SIDDHARTH KAKKAR ©2019</p>
+
+
+    </div>
+
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

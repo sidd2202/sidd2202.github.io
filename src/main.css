@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700,700i");
+body {
+  background-color: black;
+  font-family: "Roboto Condensed";
+}
+
+.intro {
+  color: #66fcf1;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 10rem;
+  min-height: 100vh;
+}
+.intro h1 {
+  font-size: 200px;
+}
+.intro h2 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+.intro h2 span {
+  font-style: italic;
+  color: #c3073f;
+  font-size: 50px;
+}
+
+.logo {
+  border: 2px solid #66fcf1;
+  border-radius: 50%;
+}
+
+.more {
+  color: #66fcf1;
+  border: 2px solid #66fcf1;
+  font-size: 20px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.more:hover {
+  color: #c3073f;
+  background-color: black;
+  border: 2px solid #c3073f;
+}
+
+.option {
+  color: #66fcf1;
+  border: 2px solid #66fcf1;
+  border-radius: 20%;
+  padding: 10px;
+}
+
+.option:hover {
+  color: #c3073f;
+  background-color: black;
+  border: 2px solid #c3073f;
+}
+
+.background {
+  text-align: center;
+  color: white;
+  min-height: 100vh;
+}
+
+.heading {
+  padding-top: 10px;
+  color: #66fcf1;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+#contact {
+  min-height: 100vh;
+  color: white;
+}
+
+#projects {
+  text-align: center;
+  min-height: 100vh;
+  display: inline-block;
+}
+#projects .card {
+  float: left;
+  margin: 8rem;
+  width: 18rem;
+}
+
+#carouselExampleControls {
+  padding: 2px;
+  border: 5px solid #66fcf1;
+}
+
+.card-img-top {
+  width: 17.8rem;
+  height: 17.8rem;
+}
+
+.copyright {
+  background-color: #0b0c10;
+  text-align: center;
+  color: #c3073f;
+}
+.copyright .git img {
+  width: 5rem;
+  height: 5rem;
+}
+
+/*# sourceMappingURL=main.css.map */
